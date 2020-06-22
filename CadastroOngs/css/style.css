@@ -1,0 +1,92 @@
+#banner{
+    background-image: url(../image/Banner1.png);
+    border-image-repeat: repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+}
+main{
+    width: 85%;
+    max-width: 100%;
+    background-color: white;
+    shape-margin: 80ch;
+}
+#mainC{
+    width: 100%;
+}
+.navbar{
+    color: white;
+}
+.navbar:hover{
+    background-color: dodgerblue;
+}
+.logosM{
+    width: 130px;
+    max-width: 100%;
+}
+.nav-link dropdown-toggle{
+    color: white;
+}
+footer{
+    background: #1f8af1;
+    color:  white;
+    clear: both;
+    text-align: center;
+    padding: 2ch;
+    font-size: 25px;
+    width: 100%;
+    bottom: 0px;
+}
+.zoom {
+	overflow: hidden;
+}
+.zoom img {
+	max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.zoom:hover img {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.sm{
+    color: white;
+}
+#fundo{
+    background-image: url(../image/Fundo.png);
+    border-image-repeat: repeat;
+    width: 100%;
+    max-width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.row{
+    margin-left: 1ch;
+}
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+#ac{
+    background-color: black;
+}
+#mainTabela{
+    width: 50%;
+}
